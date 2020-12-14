@@ -13,14 +13,14 @@ body {
 .contenedor {
     padding: 60px 0;
     width: 90%;
-    max-width: 1200px;  
+    max-width: 1200px;
     margin: auto;
     overflow: hidden;
 }
 
 .titulo {
     color: rgb(255, 131, 43);
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -65,7 +65,7 @@ header .textos-header {
 
 
 nav {
-    font-weight: 7  00;
+    font-weight: 7 00;
     text-align: right;
     padding: 30px 50px 0 0;
 }
@@ -92,36 +92,50 @@ nav>a:hover {
 
 /* Contenido */
 
-.contenedor-sobre-nosotros{
+.contenedor-sobre-nosotros {
     display: flex;
     justify-content: space-evenly;
 }
 
-.imagen-about-us{
-    width: 45%;
-}
- 
-.imagen-portafolio{
+.imagen-about-us {
     width: 45%;
 }
 
-.sobre-nosotros .contenedor-textos{
+.imagen-portafolio {
+    width: 45%;
+}
+
+.sobre-nosotros .contenedor-textos {
     width: 40%;
     font-weight: 300;
 }
-.contenedor-textos h3{
-    font-size: 18px;    
+
+.contenedor-textos h3 {
+    font-size: 18px;
     margin-bottom: 12px;
 }
 
-.contenedor-textos h3 i{
+.contenedor-textos h3 i {
     font-size: 25px;
     color: #026938;
 }
 
-.contenedor-textos p{
-    padding: 0px 0px 30px 15px ;
+.contenedor-textos p {
+    padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
 
+}
+
+.hecho-con{
+    background: #f1f1f1;
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 34%;
 }
