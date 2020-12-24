@@ -39,7 +39,36 @@ header {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    
+}
+.navegar{
+    width: 100%;
+    margin: auto;
+     overflow:hidden;
+}
+nav{
+    text-align: right;
+}
+    
 
+nav ul li{
+    float: left;
+    background: rgba(0, 0, 0, 0.74);
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    list-style:none;
+    text-align: right;
+}
+nav ul li:hover{
+    background-color: #5B5B5B;;
+}
+nav ul li a{
+    display: block;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    text-align: right;
 }
 
 header .textos-header {
@@ -64,25 +93,25 @@ header .textos-header {
 }
 
 
-nav {
-    font-weight: 7 00;
-    text-align: right;
-    padding: 30px 50px 0 0;
-}
+    /* nav {
+        font-weight: 7 00;
+        text-align: right;
+        padding: 30px 50px 0 0;
+    }
 
-nav>a {
-    color: #fff;
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 10px;
-}
+    nav>a {
+        color: #fff;
+        font-weight: 300;
+        text-decoration: none;
+        margin-right: 10px;
+    }
 
-nav>a:hover {
+    nav>a:hover {
 
-    font-weight: 100;
-    text-decoration: underline;
+        font-weight: 100;
+        text-decoration: underline;
 
-}
+} */
 
 .wave {
     position: absolute;
@@ -101,8 +130,13 @@ nav>a:hover {
     width: 45%;
 }
 
+.portafolio{
+    background: #f1f1f1;
+}
+
 .imagen-portafolio {
     width: 45%;
+    
 }
 
 .sobre-nosotros .contenedor-textos {
@@ -128,7 +162,7 @@ nav>a:hover {
 }
 
 .hecho-con{
-    background: #f1f1f1;
+    background: #0000001c;
 }
 .logos{
     display: flex;
