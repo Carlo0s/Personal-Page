@@ -37,7 +37,7 @@ header {
     background: linear-gradient(to right, hsla(40, 92%, 58%, 0.616), hsla(13, 97%, 55%, 0.61)), url(./imagenes/fox1.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment:fixed;
     position: relative;
     z-index: 10;
 
@@ -64,48 +64,6 @@ header .textos-header {
     font-weight: 300px;
     color: #fff;
 }
-
-/* .arriba {
-    width: 100%;
-    overflow: hidden;
-    position: fixed;
-    background: rgba(0, 0, 0, 0.74);
-}
-
-.navegar {
-    width: 80%;
-}
-
-nav {
-    float: left;
-}
-
-nav ul {
-    margin-left: 180px;
-}
-
-nav ul li {
-    float: left;
-    font-weight: 300;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    list-style: none;
-    text-align: right;
-}
- 
-nav ul li:hover {
-    background-color: #FF832B;
-    ;
-}
-
-nav ul li a {
-    display: block;
-    padding: 20px;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    text-align: right;
-} */
-
 .navegar{
     width: 100%;
     position: fixed;
@@ -119,20 +77,20 @@ nav {
         text-align: center;
         justify-content: center;
 
-    }
+}
 
-    nav>a {
-        color: rgb(255, 255, 255);
-        font-weight: 300;
-        text-decoration:none;
-        padding: 50px 40px 20px 40px;
-        overflow: hidden;
-    }
+nav>a {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    text-decoration:none;
+    padding: 50px 40px 20px 40px;
+    overflow: hidden;
+}
 
-    nav>a:hover {
-        font-weight: 100;
-        text-decoration: underline;
-        background-color: #00000079;
+nav>a:hover {
+    font-weight: 100;
+    text-decoration: underline;
+    background-color: #00000079;
         
 }
 
