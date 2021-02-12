@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <meta name="description" content="Pagina Web estatica hecha por un prinipiante que cuenta con codigo HTML y CSS"/>
+    <meta name="description" content="Pagina Web estatica hecha por un prinipiante que cuenta con codigo HTML y CSS" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shorcur icon" href="imagenes/logo.ico" type="image/x-icon">
@@ -13,18 +13,20 @@
 </head>
 
 <body>
-    <header>
+    <header id=inicio>
+        <!--Seccion de Navegacion-->
         <section class="navegar">
-                <nav>
-                        <a href="#">Inicio</a>
-                        <a href="#">Quien soy?</a>
-                        <a href="#">Conocimientos</a>
-                        <a href="#">Contacto</a>
-                </nav>
+            <nav>
+                <a href="#inicio">Inicio</a>
+                <a href="#quien">Quien soy?</a>
+                <a href="#conocimientos">Conocimientos</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
             </div>
         </section>
+        <!--Titulo principal de la pagina WEB-->
         <section class="textos-header">
-            <h1>Primer intento de pagina WEB</h1>
+            <h1>Hola como esta la pe</h1>
             <br>
             <h2>Diseñador WEB - Programador<br><span>Apasionado</span> por el aprendizaje y el trabajo hacia la
                 programación</h2>
@@ -35,7 +37,8 @@
                 </svg></div>
         </section>
     </header>
-    <main>
+    <main id="quien">
+        <!--Primer sección Descrpcion-->
         <section class="contenedor sobre-nosotros">
             <h2 class="titulo">¿Quien soy?</h2>
             <div class="contenedor-sobre-nosotros">
@@ -54,35 +57,51 @@
                 </div>
             </div>
         </section>
-        <section class="portafolio">
+        <!--Galeria de Fotos-->
+        <section id="conocimientos" class="portafolio">
             <div class="contenedor">
                 <h2 class="titulo">Biblioteca de Imagenes</h2>
                 <div class="galeria">
-                   
-                        <img class="imagen-portafolio" src="imagenes/portafolio.jpg" alt="Portafolio">
-                        <img class="imagen-portafolio" src="imagenes/portafolio 1.jpg" alt="Portafolio">
-                        <img class="imagen-portafolio" src="imagenes/portafolio 4.jpg" alt="Portafolio">
-                        <img class="imagen-portafolio" src="imagenes/portafolio 3.jpg" alt="Portafolio">
-                        <img class="imagen-portafolio" src="imagenes/portafolio 5.jpg" alt="Portafolio">
-                        <img class="imagen-portafolio" src="imagenes/portafolio 6.jpg" alt="Portafolio">
+
+                    <img class="imagen-portafolio" src="imagenes/portafolio.jpg" alt="Portafolio">
+                    <img class="imagen-portafolio" src="imagenes/portafolio 1.jpg" alt="Portafolio">
+                    <img class="imagen-portafolio" src="imagenes/portafolio 4.jpg" alt="Portafolio">
+                    <img class="imagen-portafolio" src="imagenes/portafolio 3.jpg" alt="Portafolio">
+                    <img class="imagen-portafolio" src="imagenes/portafolio 5.jpg" alt="Portafolio">
+                    <img class="imagen-portafolio" src="imagenes/portafolio 6.jpg" alt="Portafolio">
                 </div>
             </div>
         </section>
+        <!--Imagenes de HTML y CSS-->
         <section class="hecho-con">
             <div class="contenedor">
                 <h2 class="titulo">Hecho con los siguientes Lenguajes de Programacion</h2>
                 <div class="logos">
-
                     <img class="logo" src="imagenes/ilustracion2.png" alt="HTML">
                     <img class="logo" src="imagenes/ilustracion3.png" alt="HTML">
                 </div>
             </div>
             </div>
         </section>
-        <footer>
-
+        <footer id="contacto">
+            <div class="div-footer">
+                <p>&copy;Carlos stiven Mora Hoyos</p>
+                <p>Universidad Distrital Francisco Jose de Caldas</p>
+            </div>
+            <div class="div2-footer">
+                <p>Redes Sociales</p>
+                <div class="iconos-footer">
+                    <a href="https://github.com/Fozzy3"><img class="icono"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACG0lEQVRIS5WW7VkbMRCEX1UAVACpIFABpgJIBUAFQAXYFQQ6gAoIFQQqgHSAO4AKxDN3u5eVLNmgH/ZJt96P2ZmVE7YSkDc8u23rN613OpPf4aN23gv43SApOupkdgIcA/sJ9i2R1wSvwFOG+zpoTHqooHkAJxl+A3sbIHkDroA/MZAnvhLAgs0zXLcyW3N2Y4FG3A32FkRzgvMWhL1MM9wCl/X7uJ8Bf+3gMYGCnWW4sLN/FvCnfQv/O9kAp2bzK8JVQyQ8d+1wkccAWtsJ3iumbQPv9j5W/Zbgh2zlZ6IpILY8uBNGdiizadWNC7ZTAEvuPI+VTf3Qsw68TO2PRMMvNloUfmklF5ssZ4eOtXjfc94R4VOCQ9cJcFBAlEc8t8zpM6CGr6w1Co8JTujEJudQ4nOCWdiv9KERux0giCIaqJodd9Jqbq0PY9mAQIJltgkwVdBosuQvdRarIzyJS2PFB+fEwNjkgabm7cP6IfpJnc73GippQcwrEklwroQHLcS5AUhoKlMUvUxwan14NE14IDm+M9boOa5lgr1CaOGtjwo5OjDYRN0F/1Xt5oNuGpAV+ok98B86njcJrmomBYfzBNeeqdltHHZFEF0qpg8fahGKKYAdLjQcq4DFqKgbKLgEg4bfMPgqOHz+LK0/w1hp0Lc/bcx4Jo4zVhOX5o+aWdxkPe0U2WvT+ofRT6WvleaVWWexTmybbrxP1oGtHmbXlHIAAAAASUVORK5CYII=" /></a>
+                    <a href="https://www.facebook.com/carlosstiven.morahoyos/"><img class="icono" 
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABpklEQVRIS6VWgVHDMAx8T0BHYAPCBKWbMAJM0HQCjokIEwAbdASYwJyM7LwV2fEduWvPsSK/pH8pCdArAIi0lmW+l7XY7V72zXZ+vpzLB7MDA3sH7/m5ANnJc+7ZvMBsgPn+E8CdVzZ7SCcDOeO+AqCHSxl7JRgoT+CMOTiPp0SwNejeF4BvJXmKwI3RSRFHBokD0cmz7wAeA3Al4AXAUcGS6MRWUrEq7JD6A+A2R061XqICkKq3GVhNO0AS/YPuTwBeFGQKwEEzShnIX1moweXAKOgVwJPuzQDOjupyX64AWrME0CqP7l8CMGskcwDOtuPj2vjbDDokPwMQjV+JXOFCfnK9UWAhEcxkZJItADmdIrC0AgiqZOYgV2PTB3aw6aGnAIhSvEvI/iDDfqN1pmeXg2ajaZQjKroAEPVIjYuKjGOtIkptGEADSioqXbuOlP8BsEylD5xy1o3GGQzMolIiKZXtg91hZ0eFI5mKg0idTL7NUVG9cBpgVQY8KjQYGeEyl/6mqS/rdbfzLthzdTt54+Q1XVbNLgJP0xGn1hjhkWA/fX4By/qKH5WK9ewAAAAASUVORK5CYII=" /></a>
+                    <a href="https://www.instagram.com/carlos_mora024/"><img class="icono" 
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAB6UlEQVRIS6WVTUoDQRCFv1oKIt7AeIPkBvEE6l5MXIiIIHoC9QaiLkQXSfAAegNzA5MbxCOEgNuWmnQPNZ2ezoizm/6pqvdevWoh8wngEvthvW7fXtEz5Rd+UkFzhWSLbFJFXYAmBZUIokRdoAd0BVqKKFPIDBgLjByM42IqFOmmQN/BIIcso8EJMAxJ9FyMQCv/9ImSAtvLFpkpaE8R2XMW1VCg10RkH3AuoEUdADf+3gjolwkiKpTPnRpR9eLE77W9RhOBjlsmePd7Ya34jTWoFO+TT32Fmtx+bVny7Ry0gG1DrVid7KUVdgR2HWjwV+DYe28kcOZAkXylvJhNYGgLfL4Ap5H4zwLn2jVu2dIlJS5qnhyCa+Ae+AE2os5YONgCblXgPyUwCO58gIXAZmS4ued9fQITsNTArwWKnoCLqOMeBS4dfAD7kQ4Vf1UoSri0I8v2fHBwpCILvDm4IiPyitF84FQXzRwcGg+Eu9pB6vqiPWs1sBNRQINVjGZoUSoKowm01Vw182rq95NGU+OULVfj6NrlSLdkgmLY/eeNAIphV2qZEFUH1eCv1fvzlXGdmkUhrj40+i4ookKTDKpvP56V3sqYDr6xFo+7IRe4EcjUi1ZcbPomrDtbjFV7yFKRoqXpWoD3C3sVlhok2HODAAAAAElFTkSuQmCC" /></a>
+                </div>
+            </div>
         </footer>
     </main>
 </body>
+<script type="text/javascript" src="codigo.js"></script>
 
 </html>

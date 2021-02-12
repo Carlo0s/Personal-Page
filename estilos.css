@@ -69,21 +69,19 @@ header .textos-header {
     position: fixed;
     z-index: 10px;
     background-color: #00000067;
-    height: 40px;
-
+    height: 50px;
+    padding-top: 15px;
 }
 nav {
-        font-weight: 7 00;
+        font-weight: 7px 00;
         text-align: center;
-        justify-content: center;
-
 }
 
 nav>a {
     color: rgb(255, 255, 255);
     font-weight: 300;
     text-decoration:none;
-    padding: 50px 40px 20px 40px;
+    padding: 50px 40px 15px 40px;
     overflow: hidden;
 }
 
@@ -160,6 +158,46 @@ nav>a:hover {
 .logo {
     width: 50%;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    background: #fc4a1a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(40, 92%, 58%), hsl(13, 97%, 55%)), url(./imagenes/fox1.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsl(40, 92%, 58%), hsl(13, 97%, 55%)), url(./imagenes/fox1.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+footer>div{
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+footer>div>p{
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-top: 5px;
+}
+.iconos-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.icono{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 10px 20px 0px 20px;
+;}
+
+
 
 @media screen and (max-width:900px) {
 
